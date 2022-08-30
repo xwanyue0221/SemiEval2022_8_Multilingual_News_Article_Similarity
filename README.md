@@ -1,0 +1,7 @@
+# SemiEval2022_Task8: News Article Document-Level Similarity
+
+# Brief Introduction
+Every year, the SemEval system releases a set of challenges containing annotated datasets. The eighth one for 2022 is evaluating the similarity of multilingual news pieces. This task's objective is to determine whether or not two news articles written in the same language cover the same subject. The downloadable datasets contain thousands of pairs of news stories published in several languages, including English, German, Spanish, Turkish, Polish, Arabic, and French. Through the development of a language model trained on the dataset, this challenge intends to create a system capable of identifying multilingual news articles with similar information.
+
+# Dataset Summary
+The datasets were annotated and rated based on the articles’ geolocation, shared entities, time, shared narrative, writing style, tone, and overall. The final scores for these seven criteria are determined by averaging the scores of multiple annotators or, if only one score is available, by using that score alone. Since the news articles are kept as URLs that lead to the source website, the SemEval team provides a Python script to facilitate content scripting. Two releases of training data were made. The first batch contains 2,939 pairs of news pieces in seven languages, while the second batch has 4,964 news pairings in addition to those included in the first batch.
